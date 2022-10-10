@@ -27,10 +27,10 @@ jobs:
               mvn clean install
 
       - name: Upload artifact for deployment job
-        uses: actions/upload-artifact@v2
+        uses: everis-dar-mytasks-ms/actions/upload-artifact@v2
         with:
           name: java-app
-          path: './everis-dar-mytasks-ms/target/*.war'
+          path: '${{ github.workspace }}/everis-dar-mytasks-ms/target/*.war'
 
   deploy:
     runs-on: ubuntu-latest

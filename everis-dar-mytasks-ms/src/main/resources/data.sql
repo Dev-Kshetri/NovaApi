@@ -1,0 +1,11 @@
+INSERT INTO Task(id,title,description,priority) values(1,'Cypress','Lorem Ipsum is simply dummy text of the printing and typesetting industry',0);
+INSERT INTO Task(id,title,description,priority) values(2,'Devops','Lorem Ipsum is simply dummy text of the printing and typesetting industry',0);
+INSERT INTO Task(id,title,description,priority) values(3,'Angular','Lorem Ipsum is simply dummy text of the printing and typesetting industry',0);
+INSERT INTO Task(id,title,description,priority) values(4,'React','Lorem Ipsum is simply dummy text of the printing and typesetting industry',0);
+INSERT INTO Task(id,title,description,priority) values(5,'Spring','Lorem Ipsum is simply dummy text of the printing and typesetting industry',0);
+INSERT INTO Task(id,title,description,priority) values(6,'Hibernate','Lorem Ipsum is simply dummy text of the printing and typesetting industry',0);
+INSERT INTO Task(id,title,description,priority) values(7,'JPA','Lorem Ipsum is simply dummy text of the printing and typesetting industry',0);
+INSERT INTO Task(id,title,description,priority) values(8,'JDBC','Lorem Ipsum is simply dummy text of the printing and typesetting industry',0);
+INSERT INTO Task(id,title,description,priority) values(9,'JSP','Lorem Ipsum is simply dummy text of the printing and typesetting industry',0);
+INSERT INTO Task(id,title,description,priority) values(10,'Servlet','Lorem Ipsum is simply dummy text of the printing and typesetting industry',0);
+INSERT INTO Task(id,title,description,priority) values(11,'JSTL','Lorem Ipsum is simply dummy text of the printing and typesetting industry',0);

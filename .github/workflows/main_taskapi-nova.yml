@@ -31,7 +31,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: java-app
-          path: '*.war'
+          path: './*.war'
 
   deploy:
     runs-on: ubuntu-latest
@@ -53,4 +53,4 @@ jobs:
           app-name: 'taskapi-nova'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DD165DBFB48A45EA8B716C8897182878 }}
-          package: '*.war'
+          package: './*.war'

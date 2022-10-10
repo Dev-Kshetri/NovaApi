@@ -22,9 +22,7 @@ jobs:
           java-version: '11'
 
       - name: Build with Maven
-        run: |
-                cd ./everis-dar-mytasks-ms
-                mvn clean install
+        run: mvn clean install
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
@@ -51,5 +49,5 @@ jobs:
         with:
           app-name: 'taskapi-nova'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3BA0D6558A9B4FD285FC9BD97D94768C }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DD165DBFB48A45EA8B716C8897182878 }}
           package: '*.war'
